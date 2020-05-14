@@ -1,0 +1,12 @@
+About the project
+
+1. There is no 3rd party software with the project.
+2. The project did not use any database. The data stor in files, the user infomation is stored in file 'user.txt', the transaction records are stored in file 'user_record.txt'.
+3. I don't how to make "The caller will supply a transaction id", so I just made the service provide radom transaction id.
+
+
+Instruction of service & API design
+
+1. Run 'ServerMain.java' to start the server then run 'ClientMain.java', and you can see the GUI of the service. 
+2. Login as user by username,password="123,123". There are 3 buttons 'Record', 'Debit', 'Credit' and a label 'Balance'.
+3. 'Record' is used to display transaction records, 'Debit' is used to register debit transactions, 'Credit' is used to register credit transactions. 'Balance' is used to display current balance of user.
